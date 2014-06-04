@@ -1,3 +1,5 @@
 $(document).ready(function () {
-    $("#people").accordion();
+    $("#people").accordion({
+        heightStyle:"content",
+        autoHeight: false});
 });
